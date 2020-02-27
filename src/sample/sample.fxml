@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="500.0" prefWidth="650.0">
+         <children>
+            <Button fx:id="btnStart" layoutX="500.0" layoutY="50.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" onAction="#startGame" text="New Game" />
+            <Button fx:id="btnEnd" layoutX="500.0" layoutY="230.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" onAction="#endGame" text="End Game" />
+            <Button fx:id="btnReset" layoutX="500.0" layoutY="120.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" disable="true" onAction="#resetGame" text="Reset Game" />
+            <FlowPane layoutX="50.0" layoutY="50.0" prefHeight="400.0" prefWidth="400.0">
+               <children>
+                  <Button fx:id="btn_0" onAction="#clickBtn" prefHeight="100.0" prefWidth="100.0" text="O">
+                     <font>
+                        <Font size="45.0" />
+                     </font></Button><Button fx:id="btn_1" onAction="#clickBtn" prefHeight="100.0" prefWidth="100.0" text="O">
+                     <font>
+                        <Font size="45.0" />
+                     </font></Button><Button fx:id="btn_2" onAction="#clickBtn" prefHeight="100.0" prefWidth="100.0" text="O">
+                     <font>
+                        <Font size="45.0" />
+                     </font></Button><Button fx:id="btn_3" onAction="#clickBtn" prefHeight="100.0" prefWidth="100.0" text="O">
+                     <font>
+                        <Font size="45.0" />
+                     </font></Button><Button fx:id="btn_4" onAction="#clickBtn" prefHeight="100.0" prefWidth="100.0" text="O">
+                     <font>
+                        <Font size="45.0" />
+                     </font></Button><Button fx:id="btn_5" onAction="#clickBtn" prefHeight="100.0" prefWidth="100.0" text="O">
+                     <font>
+                        <Font size="45.0" />
+                     </font></Button><Button fx:id="btn_6" onAction="#clickBtn" prefHeight="100.0" prefWidth="100.0" text="O">
+                     <font>
+                        <Font size="45.0" />
+                     </font></Button><Button fx:id="btn_7" onAction="#clickBtn" prefHeight="100.0" prefWidth="100.0" text="O">
+                     <font>
+                        <Font size="45.0" />
+                     </font></Button><Button fx:id="btn_8" onAction="#clickBtn" prefHeight="100.0" prefWidth="100.0" text="O">
+                     <font>
+                        <Font size="45.0" />
+                     </font></Button><Button fx:id="btn_9" onAction="#clickBtn" prefHeight="100.0" prefWidth="100.0" text="O">
+                     <font>
+                        <Font size="45.0" />
+                     </font></Button><Button fx:id="btn_10" onAction="#clickBtn" prefHeight="100.0" prefWidth="100.0" text="O">
+                     <font>
+                        <Font size="45.0" />
+                     </font></Button><Button fx:id="btn_11" onAction="#clickBtn" prefHeight="100.0" prefWidth="100.0" text="O">
+                     <font>
+                        <Font size="45.0" />
+                     </font></Button><Button fx:id="btn_12" onAction="#clickBtn" prefHeight="100.0" prefWidth="100.0" text="O">
+                     <font>
+                        <Font size="45.0" />
+                     </font></Button><Button fx:id="btn_13" onAction="#clickBtn" prefHeight="100.0" prefWidth="100.0" text="O">
+                     <font>
+                        <Font size="45.0" />
+                     </font></Button><Button fx:id="btn_14" onAction="#clickBtn" prefHeight="100.0" prefWidth="100.0" text="O">
+                     <font>
+                        <Font size="45.0" />
+                     </font></Button><Button fx:id="btn_15" onAction="#clickBtn" prefHeight="100.0" prefWidth="100.0" text="O">
+                     <font>
+                        <Font size="45.0" />
+                     </font></Button>
+               </children></FlowPane>
+         </children></Pane>
+   </children>
+</GridPane>
