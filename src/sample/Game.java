@@ -29,8 +29,10 @@ public class Game {
         }
     }
     public void nextMove(int code) {
-        if (state == RUNNING) field.toggleTile1(code);
-        if (field.isWinner()) endGame();
+        if (state == RUNNING) {
+            if (field.isWinner()) endGame();
+            else field.toggleTile1(code);
+        }
     }
     public Field getField() {
         return field;

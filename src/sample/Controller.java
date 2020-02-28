@@ -3,6 +3,7 @@ package sample;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.scene.control.Button;
+import javafx.scene.paint.Color;
 
 public class Controller {
 
@@ -56,5 +57,21 @@ public class Controller {
         btn_13.setText(arr[1][3].isValue() ? "X" : "O");
         btn_14.setText(arr[2][3].isValue() ? "X" : "O");
         btn_15.setText(arr[3][3].isValue() ? "X" : "O");
+        btn_0.setTextFill(arr[0][0].isValue() ? Color.RED : Color.BLUE);
+        btn_1.setTextFill(arr[1][0].isValue() ? Color.RED : Color.BLUE);
+        btn_2.setTextFill(arr[2][0].isValue() ? Color.RED : Color.BLUE);
+        btn_3.setTextFill(arr[3][0].isValue() ? Color.RED : Color.BLUE);
+        btn_4.setTextFill(arr[0][1].isValue() ? Color.RED : Color.BLUE);
+        btn_5.setTextFill(arr[1][1].isValue() ? Color.RED : Color.BLUE);
+        btn_6.setTextFill(arr[2][1].isValue() ? Color.RED : Color.BLUE);
+        btn_7.setTextFill(arr[3][1].isValue() ? Color.RED : Color.BLUE);
+        btn_8.setTextFill(arr[0][2].isValue() ? Color.RED : Color.BLUE);
+        btn_9.setTextFill(arr[1][2].isValue() ? Color.RED : Color.BLUE);
+        btn_10.setTextFill(arr[2][2].isValue() ? Color.RED : Color.BLUE);
+        btn_11.setTextFill(arr[3][2].isValue() ? Color.RED : Color.BLUE);
+        btn_12.setTextFill(arr[0][3].isValue() ? Color.RED : Color.BLUE);
+        btn_13.setTextFill(arr[1][3].isValue() ? Color.RED : Color.BLUE);
+        btn_14.setTextFill(arr[2][3].isValue() ? Color.RED : Color.BLUE);
+        btn_15.setTextFill(arr[3][3].isValue() ? Color.RED : Color.BLUE);
     }
 }

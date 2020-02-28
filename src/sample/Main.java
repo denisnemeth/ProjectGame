@@ -5,7 +5,6 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-
 import java.util.Random;
 
 public class Main extends Application {
@@ -18,7 +17,7 @@ public class Main extends Application {
         primaryStage.show();
     }
     public static void main(String[] args) {
-        Field field = new Field();
+        /*Field field = new Field();
         Random rnd = new Random();
         field.print();
         field.shuffle();
@@ -28,7 +27,7 @@ public class Main extends Application {
             count++;
         }
         field.print();
-        System.out.println(count);
+        System.out.println(count);*/
         launch(args);
     }
 }
